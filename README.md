@@ -2,7 +2,7 @@
 # Pre requirement 
 * Create an account in [tinkercad](https://www.tinkercad.com/) 
 * Create a new Circui 
-* # Tools:
+# Tools:
 1. Breadboard.
 2. Arduino Uno R3.
 3. DC Motors.
