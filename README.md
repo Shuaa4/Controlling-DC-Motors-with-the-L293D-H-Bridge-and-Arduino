@@ -27,7 +27,8 @@ NOTE: DC Motor will rotating in clockwise direction and if you want to run DC mo
 need to some change in the code (Replace HIGH to LOW and vice versa).
 ```c++ 
 void loop()
-{   digitalWrite(13, LOW); 
+{ 
+digitalWrite(13, LOW); 
 digitalWrite(12, HIGH);  
 digitalWrite(8, LOW); 
 digitalWrite(7, HIGH);  
@@ -36,13 +37,15 @@ digitalWrite(7, HIGH);
 But, if you want it to rotate in both directions with a while in between, then you need to set a delay for number of millisecond then the direction of rotation changes to other side. 
 ```c++
 void setup() 
-{   pinMode(13, OUTPUT); 
+{ 
+pinMode(13, OUTPUT); 
 pinMode(12, OUTPUT);  
 pinMode(8, OUTPUT);  
 pinMode(7, OUTPUT);
 } 
 void loop() 
-{   digitalWrite(13, HIGH); 
+{  
+digitalWrite(13, HIGH); 
 digitalWrite(12, LOW); 
 digitalWrite(8, HIGH); 
 digitalWrite(7, LOW); 
